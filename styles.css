@@ -1,0 +1,36 @@
+.something{
+color: rgb(230, 235, 240);
+font-family: roboto;
+
+}
+.container{
+    width: 100%;
+    /* background-color: rgb(244, 245, 245); */
+}
+p{
+    font-size: 1.5em;
+    font-family: roboto;
+    color: rgb(230, 235, 240);
+}
+.box{
+    width: 23%;
+    padding: 20px;
+    
+}
+.graph{
+    width: 80%;
+    height: 80%;
+    padding-right: 0%;
+}
+.sidebar{
+padding-top: 8%;
+width: 8%;
+}
+
+.sidebar > * {
+   padding: 20px;
+   display: inline-block;
+   border-left-width:2px ;
+   border-color: red;
+ 
+}
