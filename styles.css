@@ -36,3 +36,9 @@ width: 8%;
    border-color: red;
  
 }
+
+.ccard {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 2px 18px 5px rgba(0, 0, 0, .05);
+}
