@@ -21,7 +21,7 @@ p{
 
 .graph{
     width: 80%;
-    height: 80%;
+    height: 200px;
     padding-right: 0%;
 }
 .sidebar{
@@ -41,4 +41,24 @@ width: 8%;
     background-color: white;
     padding: 10px;
     box-shadow: 0 2px 18px 5px rgba(0, 0, 0, .05);
+}
+
+th, td {
+    padding: 1.2rem 1rem;
+    background-color: white;
+}
+
+th {
+    text-align: center;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.icon {
+    border-left: 3px solid transparent;
+}
+
+.icon:active, .icon:hover {
+    background-color: aqua;
+    border-left: 3px solid blue;
 }
