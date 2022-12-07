@@ -3,10 +3,8 @@ color: rgb(230, 235, 240);
 font-family: roboto;
 
 }
-.container{
-    width: 100%;
-    /* background-color: rgb(244, 245, 245); */
-}
+
+
 p{
     font-size: 1.5em;
     font-family: roboto;
@@ -59,6 +57,7 @@ th {
 }
 
 .icon:active, .icon:hover {
-    background-color: aqua;
+    background-color: rgb(214, 226, 226);
     border-left: 3px solid blue;
 }
+
