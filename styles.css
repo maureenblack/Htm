@@ -6,7 +6,21 @@ font-family: roboto;
 .line{
     height: 45px;
 }
+.nav{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav.active, .nav:hover {
+    background-color: rgb(214, 226, 226);
+    border-left: 3px solid blue;
 
+}
 .text{
     font-size: 1em;
     font-family: roboto;
@@ -31,7 +45,7 @@ width: 8%;
    padding: 20px;
    display: inline-block;
    border-left-width:2px ;
-   border-color: red;
+   
  
 }
 .graph{
