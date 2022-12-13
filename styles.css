@@ -75,7 +75,7 @@ th {
     border-left: 3px solid transparent;
 }
 
-.icon:active, .icon:hover {
+.dashboard {
     background-color: rgb(214, 226, 226);
     border-left: 3px solid blue;
 }
@@ -102,4 +102,68 @@ width: 70%;
         padding-right: 1% !important;
 
 
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 19px;
+    margin: 13px;
+}
+.bea{
+  display: flex;
+}
+                  
+
+.envelope{
+    color: rgb(211, 211, 211);
+    font-size: 2.5em;
+    padding-top: 100%;
+}
+
+.form-control {
+    box-shadow: none;
+    font-family: FontAwesome, Arial;
+    font-style: normal;
+    border: 0;
+    outline: 0;
+    color: rgb(224, 221, 221);
+    
+}
+.form-control::placeholder {
+    color: rgb(224, 221, 221);
+    font-size: 1em;
+    font-family: roboto;
+    border-bottom: 1px solid #c4c5c6;
+}
+.pill{
+    width: 1px; 
+    height: 1px;
+    border-radius: 50%;
+    right: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    
+}
+
+
+.bell{
+    color: rgb(211, 211, 211);
+    font-size: 2.5em;
+    padding: 10px;
+
+}
+.pill{
+   width: 1px; 
+   height: 1px;
+   border-radius: 50%;
+   right: 8%;
+
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 19px;
+    margin: 13px;
 }
